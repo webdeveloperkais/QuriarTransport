@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    
+<head>
+        <!-- ========== Meta Tags ========== -->
+       <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="bytelabx">
+        <meta name="description" content="Retina Trans - Transportation">
+        <!-- ======== Page title ============ -->
+        <title>Retina Trans - Transportation</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Flaticon.css >>-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+
+        <!-- Preloader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">                
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back To Top Start -->
+        <button id="back-top" class="back-to-top">
+            <i class="fa-regular fa-arrow-up"></i>
+        </button>
+
+        <!--<< Mouse Cursor Start >>-->  
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+        
+        <!-- Offcanvas Area Start -->
+        <div class="fix-area">
+            <div class="offcanvas__info">
+                <div class="offcanvas__wrapper">
+                    <div class="offcanvas__content">
+                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div class="offcanvas__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="offcanvas__close">
+                                <button>
+                                <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="mt-4 d-none d-xl-block">
+                            We specialize in delivering seamless, reliable, and efficient logistics solutions tailored to meet the dynamic needs of our clients
+                        </p>
+                        <div class="mobile-menu fix mt-3"></div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="offcanvas-gallery-area d-none d-xl-block">
+                            <div class="offcanvas-gallery-items">
+                               <div class="header-gallery">
+                                    <img src="assets/img/header/01.jpg" alt="gallery-img">
+                               </div>
+                               <div class="header-gallery">
+                                    <img src="assets/img/header/02.jpg" alt="gallery-img">
+                                </div>
+                                <div class="header-gallery">
+                                    <img src="assets/img/header/03.jpg" alt="gallery-img">
+                                </div>
+                            </div>
+                            <div class="offcanvas-gallery-items">
+                                <div class="header-gallery">
+                                     <img src="assets/img/header/04.jpg" alt="gallery-img">
+                                </div>
+                                <div class="header-gallery">
+                                     <img src="assets/img/header/05.jpg" alt="gallery-img">
+                                 </div>
+                                 <div class="header-gallery">
+                                     <img src="assets/img/header/06.jpg" alt="gallery-img">
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="offcanvas__contact">
+                            <h3>Information</h3>
+                            <ul class="contact-list">
+                                <li>
+                                    <span>
+                                        Address:
+                                    </span>
+                                    55 Main Street 2nd block Australia
+                                </li>
+                                <li>
+                                    <span>
+                                        Call Us:
+                                    </span>
+                                    <a href="tel:+12356142188">+1 235 614 2188</a>
+                                </li>
+                                <li>
+                                    <span>
+                                        Email:
+                                    </span>
+                                    <a href="mailto:info@example.com">info@example.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="theme-btn">
+                            Request a Quote
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas__overlay"></div>
+
+        <!-- Header-Top Section Start -->
+        <div class="header-top-section">
+            <div class="container-fluid">
+                <div class="header-top-wrapper">
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <a href="tel:+8801733497912">Call : +880 1733497912 </a>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-envelope"></i>
+                            <a href="mailto:retina@gmail.com">Email : retina@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="social-icon d-flex align-items-center">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Location : Ulon Road, West Rampura, Dhaka, Bangladesh
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Section Start -->
+        <header id="header-sticky" class="header-section header-1 header-2">
+            <div class="container-fluid">
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="header-left">
+                            <div class="logo">
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/img/logo/black-logo.png" alt="logo-img">
+                                </a>
+                                <a href="index.html" class="header-logo-2">
+                                    <img src="assets/img/logo/black-logo.png" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="mean__menu-wrapper">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="service.html">Services</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                            <a href="project-details.html" class="text-btn">Track Shipment <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="contact.html" class="theme-btn">
+                                Request a Quote
+                               <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <div class="header__hamburger d-xl-block my-auto">
+                                <div class="sidebar__toggle">
+                                    <div class="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section Start -->
+        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.html');">
+            <div class="container">
+                <div class="page-heading">
+                    <div class="breadcrumb-sub-title">
+                        <span class="wow fadeInUp" data-wow-delay=".3s">Our Services</span>
+                        <h1 class="wow fadeInUp" data-wow-delay=".5s">Reliable & Efficient Supply <br> Chain Solutions</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Section Start -->
+        <section class="service-section-inner-1">
+            <div class="service-inner-wrapper-1">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-inner-box-1">
+                                <div class="icon">
+                                    <img src="assets/img/service/icon-1.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <h4><a href="service-details.html">Reliable & On-Time Delivery</a></h4>
+                                    <p>
+                                        Ensuring fast, efficient, and on-time deliveries optimized routes, real-time tracking, and expert logistics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-inner-box-1">
+                                <div class="icon">
+                                    <img src="assets/img/service/icon-1.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <h4><a href="service-details.html">Global Reach & Network</a></h4>
+                                    <p>
+                                        A strong international and domestic logistics network, providing seamless air, sea, and road freight .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-inner-wrapper-1">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-inner-box-1">
+                                <div class="icon">
+                                    <img src="assets/img/service/icon-1.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <h4><a href="service-details.html">Technology & Tracking</a></h4>
+                                    <p>
+                                        Ensuring fast, efficient, and on-time deliveries optimized routes, real-time tracking, and expert logistics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-inner-box-1">
+                                <div class="icon">
+                                    <img src="assets/img/service/icon-1.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <h4><a href="service-details.html">Cost-Effective Solutions</a></h4>
+                                    <p>
+                                        A strong international and domestic logistics network, providing seamless air, sea, and road freight .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Works Section Start -->
+        <section class="how-we-work-section-2 how-border-section fix section-padding">
+            <div class="container">
+                <div class="how-we-work-wrapper-2">
+                    <div class="section-title style-2 text-center">
+                        <span class="wow fadeInUp">How We Works</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                            Journey of Your Shipment Our <br>
+                            Proven Transport Process
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="faq-items">
+                                <div class="accordion" id="accordionExample1">
+                                    <div class="accordion-item">
+                                        <span>01</span>
+                                        <div class="icon">
+                                            <i class="flaticon-booking"></i>
+                                        </div>
+                                        <h2 class="accordion-header" id="headingOne9">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne9" aria-expanded="true" aria-controls="collapseOne9">
+                                                Request & Booking
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne9" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne9" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Customers submit transportation requests via phone, email, or an online platform, specifying shipment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <span>02</span>
+                                        <div class="icon">
+                                            <i class="flaticon-schedule"></i>
+                                        </div>
+                                        <h2 class="accordion-header" id="headingTwo9">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo9" aria-expanded="false" aria-controls="collapseTwo9">
+                                                Dispatch & Scheduling
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo9" class="accordion-collapse collapse" aria-labelledby="headingTwo9"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Customers submit transportation requests via phone, email, or an online platform, specifying shipment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <span>03</span>
+                                        <div class="icon">
+                                            <i class="flaticon-order-tracking"></i>
+                                        </div>
+                                        <h2 class="accordion-header" id="headingthree9">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsethree9" aria-expanded="false"
+                                                aria-controls="collapsethree9">
+                                                Transit & Monitoring
+                                            </button>
+                                        </h2>
+                                        <div id="collapsethree9" class="accordion-collapse collapse"
+                                            aria-labelledby="headingthree9" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Customers submit transportation requests via phone, email, or an online platform, specifying shipment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <span>04</span>
+                                        <div class="icon">
+                                            <i class="flaticon-delivery-box"></i>
+                                        </div>
+                                        <h2 class="accordion-header" id="headingfour9">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsefour9" aria-expanded="false"
+                                                aria-controls="collapsefour9">
+                                                Delivery & Payment
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefour9" class="accordion-collapse collapse" aria-labelledby="headingfour9"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Customers submit transportation requests via phone, email, or an online platform, specifying shipment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="how-we-image">
+                                <img src="assets/img/feature/container-image.html" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- Service-section Section Start -->
+          <section class="service-section-2 section-padding fix">
+            <div class="container-fluid">
+                <div class="section-title text-center style-2">
+                    <span class="wow fadeInUp">Logistics Service </span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Innovative Transportation Services
+                    </h2>
+                </div>
+                <div class="service-wrapper-2">
+                    <div class="row g-0">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="service-card-item">
+                                <div class="service-image">
+                                    <img src="assets/img/service/service-1.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="flaticon-air-freight"></i>
+                                    </div>
+                                    <h4>
+                                        <a href="service-details.html">Freight Transportation</a>
+                                    </h4>
+                                    <p>
+                                        Reliable land, air, and ocean freight solutions for businesses, including container shipping.
+                                    </p>
+                                    <a href="service-details.html" class="link-btns">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="service-card-item">
+                                <div class="service-image">
+                                    <img src="assets/img/service/service-2.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="flaticon-product-lifecycle"></i>
+                                    </div>
+                                    <h4>
+                                        <a href="service-details.html">Logistics & Supply Chain</a>
+                                    </h4>
+                                    <p>
+                                        Reliable land, air, and ocean freight solutions for businesses, including container shipping.
+                                    </p>
+                                    <a href="service-details.html" class="link-btns">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="service-card-item">
+                                <div class="service-image">
+                                    <img src="assets/img/service/service-3.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="flaticon-freight"></i>
+                                    </div>
+                                    <h4>
+                                        <a href="service-details.html">Express Courier & Parcel Delivery</a>
+                                    </h4>
+                                    <p>
+                                        Reliable land, air, and ocean freight solutions for businesses, including container shipping.
+                                    </p>
+                                    <a href="service-details.html" class="link-btns">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="service-card-item">
+                                <div class="service-image">
+                                    <img src="assets/img/service/service-3.html" alt="img">
+                                </div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="flaticon-logistics"></i>
+                                    </div>
+                                    <h4>
+                                        <a href="service-details.html">Specialized Transportation</a>
+                                    </h4>
+                                    <p>
+                                        Reliable land, air, and ocean freight solutions for businesses, including container shipping.
+                                    </p>
+                                    <a href="service-details.html" class="link-btns">Read more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faq Section Start -->
+        <section class="faq-section fix section-padding pt-0">
+            <div class="container">
+                <div class="faq-wrapper">
+                    <div class="row g-4 justify-content-between">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="faq-left-items">
+                                <div class="section-title style-2 mb-0">
+                                    <span class="wow fadeInUp">How We Works</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Helping You Navigate Shipping & Freight
+                                    </h2>
+                                </div>
+                                <div class="left-box-items wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="icon">
+                                        <img src="assets/img/quriar-icon.html" alt="img">
+                                    </div>
+                                    <div class="author-image bg-cover" style="background-image: url('assets/img/author.html');"></div>
+                                    <div class="count-box">
+                                        <div class="">
+                                            <h4><span class="count">10</span>m+</h4>
+                                            <p>Trusted Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="faq-items-2">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Fast & Reliable Deliveries
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Global Network & Connectivity
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingthree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsethree" aria-expanded="false"
+                                                aria-controls="collapsethree">
+                                                Secure & Safe Cargo Handling
+                                            </button>
+                                        </h2>
+                                        <div id="collapsethree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingfour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsefour" aria-expanded="false"
+                                                aria-controls="collapsefour">
+                                                Flexible & Cost-Effective Solutions
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingseven11">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseseven11" aria-expanded="false"
+                                                aria-controls="collapseseven11">
+                                                Specialized Freight Handling
+                                            </button>
+                                        </h2>
+                                        <div id="collapseseven11" class="accordion-collapse collapse" aria-labelledby="headingseven11"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingseven1">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseseven1" aria-expanded="false"
+                                                aria-controls="collapseseven1">
+                                                Sustainability & Eco-Friendly Practices
+                                            </button>
+                                        </h2>
+                                        <div id="collapseseven1" class="accordion-collapse collapse" aria-labelledby="headingseven1"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item mb-0">
+                                        <h2 class="accordion-header" id="headingseven">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseseven" aria-expanded="false"
+                                                aria-controls="collapseseven">
+                                                Documentation Support
+                                            </button>
+                                        </h2>
+                                        <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    With an extensive international network of carriers and partners, we provide seamless air freight solutions across multiple destinations worldwide.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       <!-- Footer Section Start -->
+        <footer class="footer-section-2">
+            <div class="container">
+                <div class="cta-consultations">
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Need Consultations for Transportation?</h2>
+                    <a href="contact.html" class="theme-btn theme-2 wow fadeInUp" data-wow-delay=".5s">
+                        Request A Quote
+                       <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-widget-wrapper-2">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                    <a href="index.html" class="footer-logo">
+                                        <img src="assets/img/logo/white-logo.png" alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                   <h4>Location</h4>
+                                </div>
+                                <div class="contact-items">
+                                    <p>
+                                        Ulon Road, West Rampura <br> Dhaka,  Bangladesh
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                   <h4>Support</h4>
+                                </div>
+                                <div class="contact-items">
+                                    <p>
+                                        <a href="mailto:retinaatrans@gmail.com">retinaatrans@gmail.com</a> <br>
+                                        <a href="tel:+8801733497912">+880 1733497912</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                   <h4>Working Hours</h4>
+                                </div>
+                                <div class="contact-items">
+                                    <p>Mon-friday: 08am-05pm <br>
+                                        Saturday <b>Closed</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-2">
+                <div class="container">
+                    <div class="footer-bottom-wrapper-2">
+                        <p class="wow fadeInUp" data-wow-delay=".3s">
+                            Copy©2026. All rights reserved by Retina.
+                        </p>
+                        <div class="social-icon wow fadeInUp" data-wow-delay=".5s">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                          </div>
+                          <div class="car-image">
+                            <img src="assets/img/logo/car.png" alt="img">
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="footer-text">
+                Quriar & Transportation
+            </h2>
+        </footer>
+
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.html"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.html"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.html"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.html"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.html"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>

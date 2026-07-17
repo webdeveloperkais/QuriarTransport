@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    
+<head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="bytelabx">
+        <meta name="description" content="Retina Trans - Transportation">
+        <!-- ======== Page title ============ -->
+        <title>Retina Trans - Transportation</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Flaticon.css >>-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+
+        <!-- Preloader Start -->
+        <div id="preloader" class="preloader">
+            <div class="animation-preloader">
+                <div class="spinner">                
+                </div>
+                <div class="txt-loading">
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back To Top Start -->
+        <button id="back-top" class="back-to-top">
+            <i class="fa-regular fa-arrow-up"></i>
+        </button>
+
+        <!--<< Mouse Cursor Start >>-->  
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+        
+        <!-- Offcanvas Area Start -->
+        <div class="fix-area">
+            <div class="offcanvas__info">
+                <div class="offcanvas__wrapper">
+                    <div class="offcanvas__content">
+                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div class="offcanvas__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="offcanvas__close">
+                                <button>
+                                <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="mt-4 d-none d-xl-block">
+                            We specialize in delivering seamless, reliable, and efficient logistics solutions tailored to meet the dynamic needs of our clients
+                        </p>
+                        <div class="mobile-menu fix mt-3"></div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="offcanvas-gallery-area d-none d-xl-block">
+                            <div class="offcanvas-gallery-items">
+                               <div class="header-gallery">
+                                    <img src="assets/img/header/01.jpg" alt="gallery-img">
+                               </div>
+                               <div class="header-gallery">
+                                    <img src="assets/img/header/02.jpg" alt="gallery-img">
+                                </div>
+                                <div class="header-gallery">
+                                    <img src="assets/img/header/03.jpg" alt="gallery-img">
+                                </div>
+                            </div>
+                            <div class="offcanvas-gallery-items">
+                                <div class="header-gallery">
+                                     <img src="assets/img/header/04.jpg" alt="gallery-img">
+                                </div>
+                                <div class="header-gallery">
+                                     <img src="assets/img/header/05.jpg" alt="gallery-img">
+                                 </div>
+                                 <div class="header-gallery">
+                                     <img src="assets/img/header/06.jpg" alt="gallery-img">
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="offcanvas__contact">
+                            <h3>Information</h3>
+                            <ul class="contact-list">
+                                <li>
+                                    <span>
+                                        Address:
+                                    </span>
+                                    West Rampura, Dhaka, Bangladesh
+                                </li>
+                                <li>
+                                    <span>
+                                        Call Us:
+                                    </span>
+                                    <a href="tel:+12356142188">+880 1733497912</a>
+                                </li>
+                                <li>
+                                    <span>
+                                        Email:
+                                    </span>
+                                    <a href="mailto:info@example.com">info@retina.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="theme-btn">
+                            Request a Quote
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas__overlay"></div>
+
+        <!-- Header-Top Section Start -->
+        <div class="header-top-section">
+            <div class="container-fluid">
+                <div class="header-top-wrapper">
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <a href="tel:+8801733497912">Call : +880 1733497912 </a>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-envelope"></i>
+                            <a href="mailto:retina@gmail.com">Email : retina@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="social-icon d-flex align-items-center">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Location : Ulon Road, West Rampura, Dhaka, Bangladesh
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Section Start -->
+        <header id="header-sticky" class="header-section header-1 header-2">
+            <div class="container-fluid">
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="header-left">
+                            <div class="logo">
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/img/logo/black-logo.png" alt="logo-img">
+                                </a>
+                                <a href="index.html" class="header-logo-2">
+                                    <img src="assets/img/logo/black-logo.png" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="mean__menu-wrapper">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="service.html">Services</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                            <a href="project-details.html" class="text-btn">Track Shipment <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="contact.html" class="theme-btn">
+                                Request a Quote
+                               <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <div class="header__hamburger d-xl-block my-auto">
+                                <div class="sidebar__toggle">
+                                    <div class="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section Start -->
+        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb.html');">
+            <div class="container">
+                <div class="page-heading">
+                    <div class="breadcrumb-sub-title">
+                        <span class="wow fadeInUp" data-wow-delay=".3s">About Company</span>
+                        <h1 class="wow fadeInUp" data-wow-delay=".5s">Industry-Leading Expertise <br> in Air Cargo Solutions</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Feature Section Start -->
+        <section class="about-feature-section fix section-padding pt-0">
+            <div class="about-feature-wrapper">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="about-feature-items">
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="flaticon-air-freight"></i>
+                                    </div>
+                                    <h5>Door-to-door services</h5>
+                                    <p>
+                                        We offer seamless door-to-door transportation services, ensuring that
+                                        cargo is picked up from its origin.
+                                    </p>
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/about/about-feature-1.html" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="about-feature-items style-2">
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="flaticon-shipping"></i>
+                                    </div>
+                                    <h5>Quality, Safe & Secure</h5>
+                                    <p>
+                                        We offer seamless door-to-door transportation services, ensuring that
+                                        cargo is picked up from its origin.
+                                    </p>
+                                </div>
+                                <div class="thumb">
+                                    <img src="assets/img/about/about-feature-2.html" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who We Are Section Start -->
+        <section class="who-we-are-section fix section-padding pt-0">
+            <div class="container">
+                <div class="who-we-are-wrapper">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="about-content">
+                                <div class="section-title style-2 mb-0">
+                                    <span class="wow fadeInUp">Who We Are</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Driven by Excellence, Powered by Reliability
+                                    </h2>
+                                </div>
+                                <h5 class="wow fadeInUp" data-wow-delay=".3">
+                                    We specialize in delivering seamless, reliable, and efficient logistics solutions tailored to meet the dynamic needs of our clients. With a robust network, cutting-edge technology, and a commitment to excellence.
+                                </h5>
+                                <p class="wow fadeInUp" data-wow-delay=".5">
+                                    We offer reliable and efficient Land Freight Transportation services, ensuring seamless delivery of goods across cities, regions, and borders modern fleet of trucks
+                                </p>
+                                <a href="team.html" class="theme-btn theme-btn-2 wow fadeInUp" data-wow-delay=".7s">
+                                    Meet Our Team
+                                   <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="thumb">
+                                <img src="assets/img/about/who-we-are-image.html" alt="img">
+                                <div class="counter-box float-bob-y">
+                                    <h2><span class="count">8</span><sup>+</sup></h2>
+                                    <p>
+                                        Years Of <br> Experience
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Cta Section Start -->
+        <div class="feature-cta-section bg-cover" style="background-image: url('assets/img/choose-us/02.html');"></div>
+
+        <!-- Feature Vision Section Start -->
+        <section class="feature-vision-section fix section-padding section-bg-2">
+            <div class="container">
+                <div class="section-title style-2 text-center">
+                    <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
+                        Committed to Seamless Logistics & <br>
+                        Supply Chain Solutions
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="feature-vision-items">
+                            <div class="text-header">
+                                <span>01</span>
+                                <h3>Company Mission</h3>
+                            </div>
+                            <p>
+                                Our mission is to provide efficient, reliable, and innovative transportation solutions that connect businesses and communities worldwide. We are committed to delivering cargo wit speed, safety, and precision, ensuring seamless logistics.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="feature-vision-items">
+                            <div class="text-header">
+                                <span>02</span>
+                                <h3>Our Vision</h3>
+                            </div>
+                            <p>
+                                Our vision is to become a global leader logistics and supply chain solutions, setting new standards for efficiency, reliability, and innovation.
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    On-Time Delivery Guarantee
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Advanced Tracking Systems
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="feature-vision-items">
+                            <div class="text-header">
+                                <span>03</span>
+                                <h3>Company Mission</h3>
+                            </div>
+                            <p>
+                                Our goal is to provide seamless, efficient, and innovative logistics solutions empower businesses 
+                                to grow and connect globally.
+                            </p>
+                            <p class="text-2">
+                                Our core values define who we are and how we operate. Reliability, integrity, and customer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section Start -->
+        <section class="team-section section-padding fix">
+            <div class="container-fluid">
+                <div class="section-title style-2 text-center">
+                    <span class="wow fadeInUp">Meet Our Team</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                        Dedicated Logistics Professionals
+                    </h2>
+                </div>
+                <div class="row gx-4 row-cols-sm-2 row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-xl-5">
+                    <div class="col wow fadeInUp" data-wow-delay=".3s">
+                        <div class="team-card-item style-2">
+                            <div class="team-image">
+                                <img src="assets/img/team/team-1.jpg" alt="img">
+                                <div class="social-profile">
+                                    <span class="plus-btn"><i class="fas fa-plus"></i></span>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h5>
+                                    <a href="team-details.html">Matthew C. Nieto</a>
+                                </h5>
+                                <p>Delivery Manager </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp" data-wow-delay=".5s">
+                        <div class="team-card-item style-2">
+                            <div class="team-image">
+                                <img src="assets/img/team/team-2.jpg" alt="img">
+                                <div class="social-profile">
+                                    <span class="plus-btn"><i class="fas fa-plus"></i></span>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h5>
+                                    <a href="team-details.html">John P. Marchant</a>
+                                </h5>
+                                <p>Marketing Coordinator</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp" data-wow-delay=".7s">
+                        <div class="team-card-item style-2">
+                            <div class="team-image">
+                                <img src="assets/img/team/team-3.jpg" alt="img">
+                                <div class="social-profile">
+                                    <span class="plus-btn"><i class="fas fa-plus"></i></span>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h5>
+                                    <a href="team-details.html">Ronnie B. Smallwood</a>
+                                </h5>
+                                <p>Delivery Manager </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp" data-wow-delay=".3s">
+                        <div class="team-card-item style-2">
+                            <div class="team-image">
+                                <img src="assets/img/team/team-4.jpg" alt="img">
+                                <div class="social-profile">
+                                    <span class="plus-btn"><i class="fas fa-plus"></i></span>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h5>
+                                    <a href="team-details.html">Lawrence K. Roberge</a>
+                                </h5>
+                                <p>HR Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp" data-wow-delay=".5s">
+                        <div class="team-card-item style-2">
+                            <div class="team-image">
+                                <img src="assets/img/team/team-5.jpg" alt="img">
+                                <div class="social-profile">
+                                    <span class="plus-btn"><i class="fas fa-plus"></i></span>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h5>
+                                    <a href="team-details.html">Eugene N. Fitzwater</a>
+                                </h5>
+                                <p>Managing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Choose Us Section Start -->
+        <section class="choose-us-section-2 fix section-padding">
+            <div class="container">
+                <div class="choose-us-wrapper-2">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="choose-us-content">
+                                <div class="section-title style-2 mb-0">
+                                    <span class="wow fadeInUp">Why Choose Us</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                        Committed to Safe, On-Time, and Hassle
+                                        Free Transportation
+                                    </h2>
+                                </div>
+                                <div class="icon-items-area">
+                                    <div class="icon-items wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="icon">
+                                            <i class="flaticon-delivery-time"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Delivery on Time</h4>
+                                            <p>
+                                                We understand that timely delivery
+                                                is crucial for your business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-items wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="icon">
+                                            <i class="flaticon-delivery-time"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Safety & Security First</h4>
+                                            <p>
+                                                Our fleet is well-maintained equipped
+                                                with the latest safety features.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon-items-area">
+                                    <div class="icon-items wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="icon">
+                                            <i class="flaticon-business"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Cost-Effective Solutions</h4>
+                                            <p>
+                                                We offer flexible a budget-friendly services tailored specific needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-items wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="icon">
+                                            <i class="flaticon-order-tracking"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Real-Time Tracking</h4>
+                                            <p>
+                                                We provide round-the-clock customer support and real-time tracking.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="choose-image wow img-custom-anim-left">
+                                <img src="assets/img/choose-us/03.html" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Section Start -->
+        <div class="brand-section fix">
+            <div class="brand-wrapper style-2 style-3">
+                <div class="swiper brand-slider-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/01.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/02.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/03.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/04.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/05.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image text-center">
+                                <img src="assets/img/brand/06.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Section Start -->
+        <footer class="footer-section-2">
+            <div class="container">
+                <div class="cta-consultations">
+                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Need Consultations for Transportation?</h2>
+                    <a href="contact.html" class="theme-btn theme-2 wow fadeInUp" data-wow-delay=".5s">
+                        Request A Quote
+                       <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-widget-wrapper-2">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                    <a href="index.html" class="footer-logo">
+                                        <img src="assets/img/logo/white-logo.png" alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                   <h4>Location</h4>
+                                </div>
+                                <div class="contact-items">
+                                    <p>
+                                        Ulon Road, West Rampura <br> Dhaka,  Bangladesh
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                   <h4>Support</h4>
+                                </div>
+                                <div class="contact-items">
+                                    <p>
+                                        <a href="mailto:retinaatrans@gmail.com">retinaatrans@gmail.com</a> <br>
+                                        <a href="tel:+8801733497912">+880 1733497912</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="footer-single-widget-2">
+                                <div class="widget-head">
+                                   <h4>Working Hours</h4>
+                                </div>
+                                <div class="contact-items">
+                                    <p>Mon-friday: 08am-05pm <br>
+                                        Saturday <b>Closed</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-2">
+                <div class="container">
+                    <div class="footer-bottom-wrapper-2">
+                        <p class="wow fadeInUp" data-wow-delay=".3s">
+                            Copy©2026. All rights reserved by Retina.
+                        </p>
+                        <div class="social-icon wow fadeInUp" data-wow-delay=".5s">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                          </div>
+                          <div class="car-image">
+                            <img src="assets/img/logo/car.png" alt="img">
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="footer-text">
+                Quriar & Transportation
+            </h2>
+        </footer>
+
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.html"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.html"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.html"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.html"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.html"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
